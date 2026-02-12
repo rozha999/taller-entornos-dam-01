@@ -1,0 +1,23 @@
+#header{
+  height: 250px;
+  background:url('../assets/img/fondo.png') no-repeat center  center/cover;
+  color: rgb(255, 249, 249);
+  padding: 40px 50px;
+  border-bottom: 3px solid #000000;
+  text-align: center;
+  font-family: sans-serif;
+}
+header h1 {
+ 
+  padding: 0px 50px; border-radius: 20px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fffefe;
+  letter-spacing: 1.5px;
+  text-shadow: rgba(174, 164, 49, 0.573) 11px 12px 15px;
+}
+
+header h4{
+    color:rgb(255, 255, 255);
+    text-shadow:rgb(17, 16, 16) 2px 5px 2px;     
+}
