@@ -1,12 +1,61 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#header{
+  height: 250px;
+  background:url('../assets/img/fondo.png') no-repeat center  center/cover;
+  color: rgb(255, 249, 249);
+  padding: 40px 50px;
+  border-bottom: 3px solid #000000;
+  text-align: center;
+  font-family: sans-serif;
 }
- 
-body {
-  background-color: #003366;
-  color: white;
-  font-family: Arial, sans-serif;
-  padding: 2rem;
+
+header h1 {
+ margin: 30px;
+ margin-bottom: 0px;;
+  padding: 0px 90px; border-radius: 20px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: #fffefe;
+  letter-spacing: 1.5px;
+  text-shadow: rgba(174, 164, 49, 0.573) 11px 12px 15px;
+}
+
+header h4{
+    margin: 8px;
+    font-size: large;
+    color:rgb(224, 201, 201);
+    text-shadow:rgb(17, 16, 16) 2px 5px 2px;     
+}
+/*Style de nav*/
+nav {
+  background-color: #c7a8a8;
+  box-shadow: 0 2px 30px rgba(97, 91, 199, 0.8);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px;
+  gap: 30px;
+}
+
+nav li {
+  color: #000000;
+  font-weight: 600;
+  padding: 16px 10px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav li {
+  color: #010101; 
+  transition: color 0.8s ease; 
+  font-style: sans-serif;
+  text-decoration: overline;
+}
+
+nav li:hover {
+  color: #c6cc74;
 }
