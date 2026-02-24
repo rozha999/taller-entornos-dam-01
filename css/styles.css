@@ -363,8 +363,6 @@ blockquote {
 }
 /*fin style de Responsive TABLET */
 
-/*Rosponsive  MOVIL */
-
 @media (max-width: 600px) {
 
   #header {
@@ -397,7 +395,7 @@ blockquote {
   }
 
    main section {
-    padding: 10px;            
+    padding: 5px;            
     border-radius: 24px;       
     background-color: hsla(81, 17%, 80%, 0.747); 
     display: flex;   
@@ -408,9 +406,14 @@ blockquote {
     text-align: center;      
     box-shadow: #030108 0px 8px 20px; 
     min-height: auto; 
-    margin: 20px auto;
+    margin: 30px auto;
+    width: 450px;
   }
-
+  main section p {
+    font-size: 1rem;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
   main section h1 {
     font-size: 1.5rem;
   }
