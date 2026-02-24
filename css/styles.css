@@ -363,6 +363,8 @@ blockquote {
 }
 /*fin style de Responsive TABLET */
 
+/*inicio Responsive Movil */
+
 @media (max-width: 600px) {
 
   #header {
